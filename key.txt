@@ -1,0 +1,12 @@
+smoker: 0 false, 1 true
+drink_level: 0 social drinker, 1 abstemious, 2 casual drinker
+dress: 0 no preference, 1 informal, 2 formal
+ambience: 0 solitary, 1 family, 2 friends
+transport: 0 foot, 1 public, 2 car owner
+maritial: 0 married, 1 single, 2 widow
+hijos: 0 independent, 1 kids, 2 dependent
+interest: 0 none, 1 variety, 2 technology, 3 retro, 4 eco-friendly
+personality: 0 hard-worker, 1 hunter, 2 conformist, 3 protector
+religion: 0 none, 1 catholic, 2 christian, 3 jewish
+activity: 0 student, 1 professional, 2 unemployed
+budget: 0 low, 1 medium, 2 high
