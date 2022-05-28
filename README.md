@@ -16,7 +16,7 @@ These are simply the imports. Not much to explain, their documentation can be fo
 ```
 data = pandas.read_csv('rdata3.csv')
 ```
-Using the pandas library, we load the CSV to read from later. We use it CSV or a spreadsheet type format because its consistant with bar graph type variables which is how our AI model will kind of work.
+Using the pandas library, we load the CSV to read for later. We use it CSV or a spreadsheet type format because its consistant with bar graph type variables which is how our AI model will kind of work.
 
 ```
 x = data.drop(columns=['rating'])
@@ -27,7 +27,7 @@ We take the data from the previous line and drop the column from the CSV called 
 ```
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.1)
 ```
-Useful line here. Using sklearn you can split the AI process up into 2 different parts basically. A part of it that's just testing, and the other part learning. This can increate accuarcy and speed up results. The test_size variable is what percent of resources is spent testing (which is set to 0.1 or 10%). The other 90% is spent learning.
+Useful line here. Using sklearn you can split the AI process up into 2 different parts basically. A part of it that's just testing, and the other part learning. This can increase accuarcy and speed up results. The test_size variable is what percent of resources is spent testing (which is set to 0.1 or 10%). The other 90% is spent learning.
 
 ```
 model = DecisionTreeClassifier()
